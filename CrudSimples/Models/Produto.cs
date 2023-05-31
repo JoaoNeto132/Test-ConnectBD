@@ -11,9 +11,9 @@ namespace CrudSimples.Models
 
         public int Id { get; set; }
 
-        [Column("Nome")]
-        [Display(Name = "Nome")]
+        [Column("Descricao")]
+        [Display(Name = "Descricao")]
 
-        public string Nome { get; set; }
+        public string Name { get; set; }
     }
 }
